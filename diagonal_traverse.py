@@ -12,7 +12,7 @@ Input:
 
 Output: [1,2,4,7,5,3,6,8,9]
 '''
-def mat_traversal(matrix):
+def diag_traversal(matrix):
     try:
         path = [matrix[0][0]]
         m, n = len(matrix), len(matrix[0])
@@ -49,4 +49,4 @@ def mat_traversal(matrix):
     return path
 
 matrix = [[1,2,3], [4,5,6], [7,8,9]]
-print(mat_traversal([]))
+print(diag_travrsal([]))
